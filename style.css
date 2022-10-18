@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2? family= Heebo:wght@400;700 & display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.df {
+  display: flex;
+}
+
+.sa {
+  justify-content: space-around;
+}
+
+.sb {
+  justify-content: space-between;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+}
+
+header nav {
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  flex-wrap: wrap;
+}
+
+header nav ul li a,
+.logo {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+  color: #000000;
+}
+
+header .menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .menu .text h1 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  /* Dark Color */
+  margin-top: 120px;
+  color: #21243d;
+}
+
+header .menu .text p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Dark Color */
+
+  color: #21243d;
+  margin-top: 40px;
+}
+
+header button {
+  background: #ff6464;
+  border-radius: 2px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+
+  color: #ffffff;
+  border: none;
+  padding: 9px 21px;
+  margin-top: 38px;
+  margin-bottom: 50px;
+}
+
+/* =====================================SECTION START======================================= */
+
+section {
+  background: #edf7fa;
+  padding: 50px 0;
+}
+
+section .top {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+@media (max-width: 968px) {
+  header .menu {
+    flex-direction: column-reverse;
+  }
+
+  header h1,
+  p {
+    text-align: center;
+  }
+
+  header button {
+    display: block;
+    margin: 40px auto 0;
+  }
+
+  header img {
+    margin-top: 40px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  header nav i {
+    display: block !important;
+    font-size: 30px;
+  }
+}
+
+section {
+  width: 100%;
+  background: #edf7fa;
+}
+
+section .section_menu {
+  max-width: 1140px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+section .section_menu .card {
+  width: 300px;
+  height: 400px;
+  box-shadow: 3px 8px 20px grey;
+  border-radius: 8px;
+}
+
+section .section_menu .card img {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+
+section .section_menu .card h3 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height */
+
+  text-align: center;
+  /* Dark Color */
+
+  color: #21243d;
+}
+
+section .section_menu h2 {
+  color: #21243d;
+  text-align: center;
+  font-size: 50px;
+
+}

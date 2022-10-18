@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.df {
+  display: flex;
+}
+
+.sa {
+  justify-content: space-around;
+}
+
+.sb {
+  justify-content: space-between;
+}
+
+
+header .section_menu {
+  max-width: 1140px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.section_menu .card {
+  width: 300px;
+  height: 400px;
+  box-shadow: 3px 8px 20px grey;
+  border-radius: 8px;
+}
+
+header .section_menu .card img {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+
+header .section_menu .card h3 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height */
+
+  text-align: center;
+  /* Dark Color */
+
+  color: #21243d;
+}
+
+header .section_menu h2 {
+  color: #21243d;
+  text-align: center;
+  font-size: 50px;
+
+}
